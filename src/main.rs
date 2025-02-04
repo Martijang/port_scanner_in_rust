@@ -5,8 +5,6 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 use chrono::Local;
 
-extern crate chrono;
-
 fn print_banner() {
     let date = Local::now();//loading local time with chrono
     println!("Port scanner made with rust");
