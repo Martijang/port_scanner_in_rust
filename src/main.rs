@@ -8,7 +8,7 @@ use chrono::Local;
 fn print_banner() {
     let date = Local::now();//loading local time with chrono
     println!("Port scanner made with rust");
-    println!("Author by Martin :>");
+    println!("Author by Martin Jang:>");
     println!("Porteiest starting on: {}", date.format("%Y-%m-%d / %H:%M:%S"));//showing excuted date
 }
 
