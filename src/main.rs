@@ -12,7 +12,7 @@ extern crate chrono;
 
 fn usage(){
     println!("Usage:");
-    println!("     -scan <IP> to scan up to 6500ports");
+    println!("     -scan <IP> to scan up to 65500ports");
     println!("     -ip <IP> <start_port> <end_port>");
 }
 
